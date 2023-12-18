@@ -7,3 +7,4 @@ https://github.com/NVlabs/tiny-cuda-nn  <br />
 https://github.com/open-mmlab/mmcv <br />
 https://github.com/facebookresearch/xformers <br />
 https://github.com/facebookresearch/pytorch3d <br />
+https://github.com/nerfstudio-project/nerfacc <br />
