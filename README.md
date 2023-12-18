@@ -12,6 +12,7 @@ https://github.com/facebookresearch/detectron2 <br />
 https://github.com/NVIDIAGameWorks/kaolin <br />
 https://github.com/mit-han-lab/torchsparse <br />
 https://github.com/mapillary/inplace_abn <br />
+https://github.com/modelscope/modelscope <br />
 
 ### 🦒 Colab T4
 
@@ -66,5 +67,15 @@ https://github.com/mapillary/inplace_abn <br />
 %cd /content
 !git clone -b v2.0.0 --recursive https://github.com/mit-han-lab/torchsparse
 %cd /content/torchsparse
+!pip wheel -v .
+```
+
+### modelscope-1.10.0-py3-none-any.whl
+
+```py
+%cd /content
+!git clone -b v1.10.0 --recursive https://github.com/modelscope/modelscope
+%cd /content/modelscope
+!pip install -q addict yapf simplejson
 !pip wheel -v .
 ```
