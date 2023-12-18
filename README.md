@@ -13,7 +13,7 @@ https://github.com/NVIDIAGameWorks/kaolin <br />
 https://github.com/mit-han-lab/torchsparse <br />
 https://github.com/mapillary/inplace_abn <br />
 
-# Colab T4
+### 🦒 Colab T4
 
 ![Screenshot 2023-12-18 17gfd0946](https://github.com/camenduru/wheels/assets/54370274/4c35a534-6269-4d86-89b3-af8cb770bc75)
 
