@@ -13,6 +13,7 @@ https://github.com/NVIDIAGameWorks/kaolin <br />
 https://github.com/mit-han-lab/torchsparse <br />
 https://github.com/mapillary/inplace_abn <br />
 https://github.com/modelscope/modelscope <br />
+https://github.com/facebookresearch/detectron2/tree/main/projects/DensePose <br />
 
 ### 🦒 Colab T4
 
@@ -78,4 +79,9 @@ https://github.com/modelscope/modelscope <br />
 %cd /content/modelscope
 !pip install -q addict yapf simplejson
 !pip wheel -v .
+```
+
+### detectron2_densepose-0.6-py3-none-any.whl
+```py
+!pip wheel -v git+https://github.com/facebookresearch/detectron2@main#subdirectory=projects/DensePose
 ```
