@@ -8,3 +8,4 @@ https://github.com/open-mmlab/mmcv <br />
 https://github.com/facebookresearch/xformers <br />
 https://github.com/facebookresearch/pytorch3d <br />
 https://github.com/nerfstudio-project/nerfacc <br />
+https://github.com/facebookresearch/detectron2 <br />
