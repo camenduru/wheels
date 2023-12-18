@@ -10,3 +10,4 @@ https://github.com/facebookresearch/pytorch3d <br />
 https://github.com/nerfstudio-project/nerfacc <br />
 https://github.com/facebookresearch/detectron2 <br />
 https://github.com/NVIDIAGameWorks/kaolin <br />
+https://github.com/mit-han-lab/torchsparse <br />
