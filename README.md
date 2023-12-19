@@ -94,3 +94,8 @@ https://github.com/NVlabs/nvdiffrast <br />
 %cd /content/nvdiffrast
 !pip wheel -v .
 ```
+
+### llava-1.1.3-py3-none-any.whl
+```py
+!pip wheel -v git+https://github.com/haotian-liu/LLaVA@v1.1.3
+```
