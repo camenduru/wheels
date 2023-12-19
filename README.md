@@ -95,7 +95,8 @@ https://github.com/NVlabs/nvdiffrast <br />
 !pip wheel -v .
 ```
 
-### llava-1.1.3-py3-none-any.whl
+### llava-ShareGPT4V-1.1.3-py3-none-any.whl
 ```py
+delete torch==2.0.1, torchvision==0.15.2 in pyproject.toml
 !pip wheel -v git+https://github.com/haotian-liu/LLaVA@v1.1.3
 ```
