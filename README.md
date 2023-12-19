@@ -15,6 +15,7 @@ https://github.com/mapillary/inplace_abn <br />
 https://github.com/modelscope/modelscope <br />
 https://github.com/facebookresearch/detectron2/tree/main/projects/DensePose <br />
 https://github.com/NVlabs/nvdiffrast <br />
+https://github.com/chengzeyi/stable-fast <br />
 
 ### 🦒 Colab T4
 
