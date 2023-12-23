@@ -106,3 +106,22 @@ https://github.com/open-mmlab/mmhuman3d <br />
 #delete torch==2.0.1, torchvision==0.15.2 in pyproject.toml
 !pip wheel -v .
 ```
+
+```py
+%cd /content
+!git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose
+%cd /content/openpose
+!git submodule update --init --recursive --remote
+!apt install -qq libprotobuf-dev protobuf-compiler libgoogle-glog-dev
+!mkdir /content/openpose/build
+%cd /content/openpose/build
+!cmake ..
+!cmake ..
+!make -j`nproc`
+!wget https://huggingface.co/camenduru/openpose/resolve/main/pose_iter_584000.caffemodel -O /content/openpose/models/pose/body_25/pose_iter_584000.caffemodel
+!wget https://huggingface.co/camenduru/openpose/resolve/main/pose_iter_440000.caffemodel -O /content/openpose/models/pose/coco/pose_iter_440000.caffemodel
+!wget https://huggingface.co/camenduru/openpose/resolve/main/pose_iter_160000.caffemodel -O /content/openpose/models/pose/mpi/pose_iter_160000.caffemodel
+!wget https://huggingface.co/camenduru/openpose/resolve/main/pose_iter_116000.caffemodel -O /content/openpose/models/face/pose_iter_116000.caffemodel
+!wget https://huggingface.co/camenduru/openpose/resolve/main/pose_iter_102000.caffemodel -O /content/openpose/models/hand/pose_iter_102000.caffemodel
+!/content/openpose/build/examples/openpose/openpose.bin --image_dir /content/images --write_json /content/images --display 0 --render_pose 0
+```
