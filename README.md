@@ -126,3 +126,13 @@ https://github.com/open-mmlab/mmhuman3d <br />
 !wget https://huggingface.co/camenduru/openpose/resolve/main/models/hand/pose_iter_102000.caffemodel -O /content/openpose/models/hand/pose_iter_102000.caffemodel
 !/content/openpose/build/examples/openpose/openpose.bin --image_dir /content/images --write_json /content/images --display 0 --render_pose 0
 ```
+
+### natten-0.14.7.dev0-cp310-cp310-linux_x86_64.whl
+```py
+%cd /content
+!git clone https://github.com/SHI-Labs/NATTEN
+%cd /content/NATTEN
+!make WORKERS=2
+!make CUDA_ARCH="7.5"
+!python setup.py bdist_wheel
+```
