@@ -137,3 +137,10 @@ https://github.com/SHI-Labs/NATTEN <br />
 !make CUDA_ARCH="7.5"
 !python setup.py bdist_wheel
 ```
+
+### MultiScaleDeformableAttention-1.0-cp310-cp310-linux_x86_64.whl
+```py
+%cd /content/OneFormer-hf/oneformer/modeling/pixel_decoder/ops
+!sh make.sh
+!python setup.py bdist_wheel
+```
