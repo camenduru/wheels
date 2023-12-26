@@ -18,6 +18,7 @@ https://github.com/NVlabs/nvdiffrast <br />
 https://github.com/haotian-liu/LLaVA <br />
 https://github.com/chengzeyi/stable-fast <br />
 https://github.com/open-mmlab/mmhuman3d <br />
+https://github.com/SHI-Labs/NATTEN <br />
 
 ### 🦒 Colab T4
 
