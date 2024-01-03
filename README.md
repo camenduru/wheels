@@ -19,6 +19,7 @@ https://github.com/haotian-liu/LLaVA <br />
 https://github.com/chengzeyi/stable-fast <br />
 https://github.com/open-mmlab/mmhuman3d <br />
 https://github.com/SHI-Labs/NATTEN <br />
+https://github.com/nvidia/nemo <br />
 
 ### 🦒 Colab T4
 
@@ -143,4 +144,9 @@ https://github.com/SHI-Labs/NATTEN <br />
 %cd /content/OneFormer-hf/oneformer/modeling/pixel_decoder/ops
 !sh make.sh
 !python setup.py bdist_wheel
+```
+
+### nemo_toolkit-1.21.0-py3-none-any.whl
+```py
+!pip wheel -v nemo-toolkit[all]==1.21.0
 ```
