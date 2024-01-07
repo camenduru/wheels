@@ -20,6 +20,7 @@ https://github.com/chengzeyi/stable-fast <br />
 https://github.com/open-mmlab/mmhuman3d <br />
 https://github.com/SHI-Labs/NATTEN <br />
 https://github.com/nvidia/nemo <br />
+https://github.com/openpifpaf/openpifpaf <br />
 
 ### 🦒 Colab T4
 
@@ -149,4 +150,12 @@ https://github.com/nvidia/nemo <br />
 ### nemo_toolkit-1.21.0-py3-none-any.whl
 ```py
 !pip wheel -v nemo-toolkit[all]==1.21.0
+```
+
+### openpifpaf-0.13.11+8.gd192643.dirty-cp310-cp310-linux_x86_64.whl
+```py
+%cd /content
+!git clone https://github.com/openpifpaf/openpifpaf
+%cd /content/openpifpaf
+!python setup.py bdist_wheel
 ```
