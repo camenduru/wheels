@@ -159,3 +159,10 @@ https://github.com/openpifpaf/openpifpaf <br />
 %cd /content/openpifpaf
 !python setup.py bdist_wheel
 ```
+
+### upfirdn2d-0.0.0-cp310-cp310-linux_x86_64.whl
+```py
+%cd /content/havatar/model/op
+!python setup.py bdist_wheel
+%cd /content/havatar
+```
