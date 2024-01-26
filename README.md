@@ -185,7 +185,7 @@ https://github.com/mlc-ai/mlc-llm <br />
 !pip wheel .
 ```
 
-### mlc-llm
+### mlc_chat-0.1.dev847+gb01b06c-cp310-cp310-linux_x86_64.whl
 ```py
 !apt install cargo -y
 
