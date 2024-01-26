@@ -169,7 +169,7 @@ https://github.com/mlc-ai/mlc-llm <br />
 %cd /content/havatar
 ```
 
-### tvm
+### tvm-0.16.dev952+g8ade9c30e-cp310-cp310-linux_x86_64.whl
 ```py
 %cd /content
 !git clone --recursive https://github.com/apache/tvm tvm
