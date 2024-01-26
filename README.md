@@ -21,6 +21,8 @@ https://github.com/open-mmlab/mmhuman3d <br />
 https://github.com/SHI-Labs/NATTEN <br />
 https://github.com/nvidia/nemo <br />
 https://github.com/openpifpaf/openpifpaf <br />
+https://github.com/apache/tvm <br />
+https://github.com/mlc-ai/mlc-llm <br />
 
 ### 🦒 Colab T4
 
@@ -165,4 +167,39 @@ https://github.com/openpifpaf/openpifpaf <br />
 %cd /content/havatar/model/op
 !python setup.py bdist_wheel
 %cd /content/havatar
+```
+
+### tvm
+```py
+%cd /content
+!git clone --recursive https://github.com/apache/tvm tvm
+
+%cd /content/tvm
+!mkdir /content/tvm/build
+!cp cmake/config.cmake build #CUDA ON
+%cd /content/tvm/build
+!cmake ..
+!make -j4
+
+%cd /content/tvm/python
+!pip wheel .
+```
+
+### mlc-llm
+```py
+!apt install cargo -y
+
+%cd /content
+!git clone --recursive https://github.com/mlc-ai/mlc-llm.git
+%cd /content/mlc-llm
+!mkdir -p build
+%cd /content/mlc-llm/build
+
+%env TVM_HOME=/content/tvm
+!python ../cmake/gen_cmake_config.py
+
+!cmake .. && cmake --build . --parallel $(nproc) && cd ..
+
+%cd /content/mlc-llm/python
+!pip wheel .
 ```
