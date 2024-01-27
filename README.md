@@ -173,10 +173,11 @@ https://github.com/mlc-ai/mlc-llm <br />
 ```py
 %cd /content
 !bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
-# USE_LLVM llvm-config-18 --link-static
-# USE_CUDA ON
-# USE_CUDNN ON
-# USE_BLAS openblas
+# set(USE_LLVM "llvm-config-18 --link-static")
+# set(USE_CUDA ON)
+# set(USE_CUDNN ON)
+# set(USE_BLAS openblas)
+# set(HIDE_PRIVATE_SYMBOLS ON)
 
 %cd /content
 !git clone --recursive https://github.com/apache/tvm tvm
