@@ -172,11 +172,12 @@ https://github.com/mlc-ai/mlc-llm <br />
 ### tvm-0.16.dev952+g8ade9c30e-cp310-cp310-linux_x86_64.whl
 ```py
 %cd /content
+# https://github.com/apache/tvm/blob/main/docs/install/from_source.rst
 !bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
-# set(USE_LLVM "llvm-config-18 --link-static")
 # set(USE_CUDA ON)
 # set(USE_CUDNN ON)
 # set(USE_BLAS openblas)
+# set(USE_LLVM "llvm-config-18 --link-static")
 # set(HIDE_PRIVATE_SYMBOLS ON)
 
 %cd /content
