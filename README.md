@@ -169,7 +169,7 @@ https://github.com/mlc-ai/mlc-llm <br />
 %cd /content/havatar
 ```
 
-### tvm-0.16.dev952+g8ade9c30e-cp310-cp310-linux_x86_64.whl
+### tvm-0.12.dev2119+g05dc738fb-cp310-cp310-linux_x86_64.whl
 ```py
 !apt install libpolly-18-dev
 %cd /content
